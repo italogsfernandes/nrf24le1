@@ -3,5 +3,5 @@ description: Ferramentas para programação do módulo NRF24LE1.
 show_downloads: true
 theme: jekyll-theme-architect
 github:
-  zip_url: https://github.com/italogfernandes/nrf24le1/releases/download/v0.0.1/WindowsRelease.rar
+  zip_url: https://github.com/italogfernandes/nrf24le1/releases/
   another_url: https://github.com/italogfernandes/nrf24le1/releases
