@@ -10,8 +10,8 @@ O NRF24LE1 é um transponder de rádio frequência produzido pela [Nordic Semico
 * **nRF24LE1**: Módulo com microcontrolador 8051 integrado. Este módulo é composto pela antena nRF24LE01 e o microcontrolador 8051. Para programar este dispositivo é utilizado a IDE **Keil C51** e para gravar o código pode ser utilizado o **mPro** ou o **gravador open-source** desenvolvido abaixo.
 
 * **nRF24LE01**: Módulo para ser utilizado com o arduino ou outros microcontroladores. Possui duas principais versões no mercado:
-  * Simples:
-  
+  * NRF24L01 - Simples:
+  ![Imagem do NRF24L01](https://static.usinainfo.com.br/5546-thickbox_default/modulo-transceptor-wireless-24ghz-wifi-nrf24l01.jpg)
   * Com SNA e PA: Possui um amplificador e uma antena
 
 You can use the [editor on GitHub](https://github.com/italogfernandes/nrf24le1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
