@@ -47,9 +47,11 @@ então coloque os arquivos de Arduino/libraries na pasta ´Arduino/libraries´ d
 1. Baixe e instale o **Keil C51**. Coloquei um tutorial a parte para este processo, tenha em mãos os meios de comprar uma licença do compilador caso você deseje fazer programas acima de 2 mil linhas. [Tutorial de Instalação do Keil C51](https://www.google.com/)
 
 2. Baixe as bibliotecas fornecidas pela Nordic para o nRF24LE1, [nRFgo-SDK](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRFgo-SDK).
-![Imagem do nRFgo-SDK](nrfgo_sdk.png)
+
+![Imagem do nRFgo-SDK](nrfgo_sdk.PNG)
 
 3. Instale o nRFgo-SDK. (Next-> I Agree-> Selecione **Keil uVision header files** -> Next-> Install -> Aguarde a Instalação -> Next -> Finish)
+
 ![Instalação do nrfgo-SDK](nrfgo_sdk_setup_3.PNG)
 
 ### Instalação do Gravador do nRF24LE1
