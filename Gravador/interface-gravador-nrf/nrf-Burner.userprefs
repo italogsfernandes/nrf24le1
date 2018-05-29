@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{783F979A-9B7D-43E6-B3F2-64CEDE68C943}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.nrf-Burner PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="nrf-Burner\MainWindow.cs">
+    <Files>
+      <File FileName="nrf-Burner\MainWindow.cs" Line="549" Column="54" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

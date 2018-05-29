@@ -1,0 +1,13 @@
+/home/italo/Documents/Dev/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/italo/Documents/Dev/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/obj/x86/Debug/nrfBurner.gtk-gui.gui.stetic
+/home/italo/Documents/Dev/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/obj/x86/Debug/nrfBurner.33l.jpg
+/home/italo/Documents/Dev/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/bin/Debug/nrf-Burner.exe.mdb
+/home/italo/Documents/Dev/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/bin/Debug/nrf-Burner.exe
+/home/italo/Documents/Dev/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/obj/x86/Debug/nrf-Burner.exe
+/home/italo/Documents/Dev/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/obj/x86/Debug/nrf-Burner.exe.mdb
+/home/italo/Documents/Dev/GitHub/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/italo/Documents/Dev/GitHub/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/obj/x86/Debug/nrfBurner.gtk-gui.gui.stetic
+/home/italo/Documents/Dev/GitHub/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/bin/Debug/nrf-Burner.exe.mdb
+/home/italo/Documents/Dev/GitHub/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/bin/Debug/nrf-Burner.exe
+/home/italo/Documents/Dev/GitHub/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/obj/x86/Debug/nrf-Burner.exe
+/home/italo/Documents/Dev/GitHub/ltad-propinsitu/Visual/nrf-Burner/nrf-Burner/obj/x86/Debug/nrf-Burner.exe.mdb

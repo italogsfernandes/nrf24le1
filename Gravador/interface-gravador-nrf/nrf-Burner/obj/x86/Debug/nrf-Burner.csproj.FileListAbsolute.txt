@@ -1,0 +1,34 @@
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\nrf-Burner.exe
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\nrf-Burner.pdb
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\obj\x86\Debug\nrf-Burner.csprojResolveAssemblyReference.cache
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\obj\x86\Debug\nrf-Burner.exe
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\obj\x86\Debug\nrf-Burner.pdb
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\atk-sharp.dll
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\gdk-sharp.dll
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\glade-sharp.dll
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\glib-sharp.dll
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\gtk-sharp.dll
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\Mono.Posix.dll
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\pango-sharp.dll
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\gdk-sharp.pdb
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\glib-sharp.pdb
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\glade-sharp.pdb
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\pango-sharp.pdb
+C:\Users\Italo Fernandes\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\atk-sharp.pdb
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\obj\x86\Debug\nrf-Burner.pdb
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\nrf-Burner.exe
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\nrf-Burner.pdb
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\atk-sharp.dll
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\gdk-sharp.dll
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\glade-sharp.dll
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\glib-sharp.dll
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\gtk-sharp.dll
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\Mono.Posix.dll
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\pango-sharp.dll
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\gdk-sharp.pdb
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\glib-sharp.pdb
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\glade-sharp.pdb
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\pango-sharp.pdb
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\bin\Debug\atk-sharp.pdb
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\obj\x86\Debug\nrf-Burner.csprojResolveAssemblyReference.cache
+C:\Users\italo\Documents\Dev\ltad-propinsitu\Visual\nrf-Burner\nrf-Burner\obj\x86\Debug\nrf-Burner.exe
