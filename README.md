@@ -5,7 +5,7 @@ Ferramentas para programação dos transceptor nrf24le01, nrf24l01 e nrf24le1.
 
 O NRF24LE1 é um transceptor de rádio frequência produzido pela [Nordic Semicondutors](www.nordicsemi.com). Este dispositivo é capaz de se comunicar na banda de frequência ISM (2.4 GHz) com taxas de transmissão em ar de até 2 MBits/s.
 
-A sua principal vantagem com relação a outros dispositivos é o seu **preço** (Podem ser encontrado por U$$2,72 no AliExpress [Anúncio](https://pt.aliexpress.com/item/2PCS-NRF24LE1-NRF24L01-MCU-Wireless-Transceiver-DIP-Wireless-Communication-Module-nE/32644282935.html).
+A sua principal vantagem com relação a outros dispositivos é o seu **preço** (Podem ser encontrado por U$$2,72 no AliExpress [Anúncio](https://pt.aliexpress.com/item/2PCS-NRF24LE1-NRF24L01-MCU-Wireless-Transceiver-DIP-Wireless-Communication-Module-nE/32644282935.html)).
 Além disso ele pode ser configurado com diferentes antenas, conseguindo se comunicar sem fim em maiores distâncias. Ele também possui um consumo de energia baixo e é fortemente configurável, permitindo diferentes topologias e tipos de rede.
 
 É importante notar as diferencias entre os módulos disponíveis no mercado, são eles:
