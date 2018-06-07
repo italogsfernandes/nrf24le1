@@ -7,7 +7,7 @@ Acesse: [Documentação](https://italogsfernandes.github.io/nrf24le1/)
 
 ## Minicurso nRF
 
-Para instalar as ferramentas acesse: Acesse: [Instruções de instalação](https://italogsfernandes.github.io/nrf24le1/instalacao.html)
+Para instalar as ferramentas acesse: [Instruções de instalação](https://italogsfernandes.github.io/nrf24le1/instalacao.html)
 
 São necessários os seguintes softwares:
 * **Compilador**: [Keil C51 e nRFgo-SDK](https://italogsfernandes.github.io/nrf24le1/instalacao-compilador-keil.html).
