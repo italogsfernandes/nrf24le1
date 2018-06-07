@@ -29,6 +29,41 @@ São necessários os seguintes softwares:
     1. [Gravador Open-Source](./instalacao-gravador-open-source.html).
 * Arduino IDE para Arduino Due e Bibliotecas: [Ferramentas arduino](./instalacao-arduino-bibliotecas.html).
 
+### Primeiros Passos
+
+Uma sugestão de roteiro para começar:
+* **Slides** sobre rádio frequência com este dispositivo.
+* **Básico**:
+    * Criando um **primeiro projeto** para no nrf24le1 com o Keil.
+    * Gravando um código com o mPro burner.
+    * **Gravando** um código com o Gravador Open-Source.
+    * Input/Output (Piscar Leds e Ler botões).
+* **Comunicação**:
+    * Envio e recebimento de dados via Wireless. (1 emissor e 1 receptor)
+    * Envio e recebimento utilizando arduino.
+    * Exemplo de rede em estrela.
+* **Bibliotecas**:
+    * PWM;
+    * ADC;
+    * Timers;
+    * I2C;
+    * SPI.
+    * etc...
+* **Hardware**:
+    * Modelos para utilizar no proteus.
+    * Montando uma placa de testes para o nrf24le1.
+    * Shield do nrf24l01 para o arduino.
+    * Shield para gravação de códigos no nrf24le1 com o arduino.
+    * Onde encontrar os componentes para comprar.
+
+Parte desse roteiro é abordado no minicurso do dia 08/06/2018.
+
+### Referências
+
+* nRF24LE1 - Nordic Semicondutors - [Acessar](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24LE1)
+* nRF24LE1 - Product Specification - [Acessar](http://www.nordicsemi.com/eng/content/download/2443/29442/file/nRF24LE1_Product_Specification_rev1_6.pdf)
+* Creating Applications with the Keil C51 C Compiler - [Acessar](http://www.nordicsemi.com/eng/nordic/download_resource/10885/7/38349113/1515).
+
 ### Autores
 
 * **Ítalo Fernandes** - [github.com/italogsfernandes](github.com/italogsfernandes)
