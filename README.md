@@ -22,7 +22,7 @@ O NRF24LE1 é um transceptor de rádio frequência produzido pela [Nordic Semico
 ### NRF24L01 + Arduino DUE
 
 1. Baixe o instalador para o seu sistema no link [Arduino - Download](https://www.arduino.cc/en/Main/Software).
-![Arduino Download](arduino_download.JPG)
+![Arduino Download](img/arduino_download.JPG)
  **Obs**: Caso utilize linux siga as instruções em: https://www.arduino.cc/en/Guide/Linux.
  Ou para Windows: https://www.arduino.cc/en/Guide/Windows
 
@@ -30,9 +30,9 @@ O NRF24LE1 é um transceptor de rádio frequência produzido pela [Nordic Semico
   * Acesse: Ferramentas -> Placas -> Gerenciador de Placas.
   * Pesquise Arduino Due e instale a opção apresentada.
 
-3. Após instalar o arduino, baixe os arquivos deste repositório (link)[https://github.com/italogfernandes/nrf24le1],
+3. Após instalar o arduino, baixe os arquivos deste repositório [link](https://github.com/italogsfernandes/nrf24le1),
 então coloque os arquivos de Arduino/libraries na pasta ´Arduino/libraries´ do seu sistema.
-![Arduino Download](arduino_libraries.PNG)
+![Arduino Download](img/arduino_libraries.PNG)
 
 ### NRF24L01 + STM32
 
@@ -48,11 +48,11 @@ então coloque os arquivos de Arduino/libraries na pasta ´Arduino/libraries´ d
 
 2. Baixe as bibliotecas fornecidas pela Nordic para o nRF24LE1, [nRFgo-SDK](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRFgo-SDK).
 
-![Imagem do nRFgo-SDK](nrfgo_sdk.PNG)
+![Imagem do nRFgo-SDK](img/nrfgo_sdk.PNG)
 
 3. Instale o nRFgo-SDK. (Next-> I Agree-> Selecione **Keil uVision header files** -> Next-> Install -> Aguarde a Instalação -> Next -> Finish)
 
-![Instalação do nrfgo-SDK](nrfgo_sdk_setup_3.PNG)
+![Instalação do nrfgo-SDK](img/nrfgo_sdk_setup_3.PNG)
 
 ### Instalação do Gravador do nRF24LE1
 
@@ -62,20 +62,14 @@ então coloque os arquivos de Arduino/libraries na pasta ´Arduino/libraries´ d
 1. Acesse o site de downloads do mono:  http://www.mono-project.com/download/stable/
 ![image](https://user-images.githubusercontent.com/21316901/41117639-f678ff1a-6a63-11e8-93f5-36e2033091c7.png)
 
-2. Baixe o instalador: *GTK# for .NET* - Installer for running Gtk#-based applications on Microsoft .NET
+2. Baixe o instalador: **GTK# for .NET** - Installer for running Gtk#-based applications on Microsoft .NET
 ![image](https://user-images.githubusercontent.com/21316901/41117649-00484ad2-6a64-11e8-8a58-12556d78eb9c.png)
 
 3. Prossiga com a instalação até o final.                   
 ![image](https://user-images.githubusercontent.com/21316901/41117665-09d831fc-6a64-11e8-9d91-9d43a51d7d10.png)
 
-4. Após instalar, extraia o arquivo *WindowsRelease.rar* execute o arquivo *nrf-Burner*.
+4. Após instalar, extraia o arquivo **WindowsRelease.rar** execute o arquivo **nrf-Burner**.
 ![image](https://user-images.githubusercontent.com/21316901/41117679-13d11854-6a64-11e8-8756-26c2a651cb98.png)
-
-## Programando o NRF24L01 com o Arduino Due
-
-## Programando o NRF24LE1 com o Keil
-
-## Exemplos de código
 
 ### Autores
 
