@@ -19,50 +19,15 @@ O NRF24LE1 é um transceptor de rádio frequência produzido pela [Nordic Semico
 
 ## Instalando as Ferramentas
 
-### NRF24L01 + Arduino DUE
+São necessários os seguintes softwares:
+* Compilador: [Keil C51 e nRFgo-SDK](./instalacao-compilador-keil.html).
+* Gravador:
+    1. [mPro](https://drive.google.com/file/d/1Kz1PrjCGG2g5PH3JMu205yZxUusiQDPu/view).
+    1. [Gravador Open-Source](./instalacao-gravador-open-source.html).
+* Arduino IDE para Arduino Due e Bibliotecas: [Ferramentas arduino](./instalacao-arduino-bibliotecas.html).
 
-1. Baixe o instalador para o seu sistema no link [Arduino - Download](https://www.arduino.cc/en/Main/Software).
-![Arduino Download](img/arduino_download.JPG)
- **Obs**: Caso utilize linux siga as instruções em: https://www.arduino.cc/en/Guide/Linux.
- Ou para Windows: https://www.arduino.cc/en/Guide/Windows
 
-2. Instale a Placa Arduino Due na IDE.
-  * Acesse: Ferramentas -> Placas -> Gerenciador de Placas.
-  * Pesquise Arduino Due e instale a opção apresentada.
-
-3. Após instalar o arduino, baixe os arquivos deste repositório [link](https://github.com/italogsfernandes/nrf24le1),
-então coloque os arquivos de Arduino/libraries na pasta ´Arduino/libraries´ do seu sistema.
-![Arduino Download](img/arduino_libraries.PNG)
-
-### NRF24LE1 com Keil C51
-
-1. Baixe e instale o **Keil C51**. Coloquei um tutorial a parte para este processo, tenha em mãos os meios de comprar uma licença do compilador caso você deseje fazer programas acima de 2 mil linhas. [Tutorial de Instalação do Keil C51](https://www.google.com/)
-
-2. Baixe as bibliotecas fornecidas pela Nordic para o nRF24LE1, [nRFgo-SDK](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRFgo-SDK).
-
-![Imagem do nRFgo-SDK](img/nrfgo_sdk.PNG)
-
-3. Instale o nRFgo-SDK. (Next-> I Agree-> Selecione **Keil uVision header files** -> Next-> Install -> Aguarde a Instalação -> Next -> Finish)
-
-![Instalação do nrfgo-SDK](img/nrfgo_sdk_setup_3.PNG)
-
-### Instalação do Gravador do nRF24LE1
-
- Para instalar o gravador antes instale o Gtk#.
- O Gravador open source pode ser instalado a partir do anexo depositado no email.
-
-1. Acesse o site de downloads do mono:  http://www.mono-project.com/download/stable/
-![image](https://user-images.githubusercontent.com/21316901/41117639-f678ff1a-6a63-11e8-93f5-36e2033091c7.png)
-
-2. Baixe o instalador: **GTK# for .NET** - Installer for running Gtk#-based applications on Microsoft .NET
-![image](https://user-images.githubusercontent.com/21316901/41117649-00484ad2-6a64-11e8-8a58-12556d78eb9c.png)
-
-3. Prossiga com a instalação até o final.                   
-![image](https://user-images.githubusercontent.com/21316901/41117665-09d831fc-6a64-11e8-9d91-9d43a51d7d10.png)
-
-4. Após instalar, extraia o arquivo **WindowsRelease.rar** execute o arquivo **nrf-Burner**.
-![image](https://user-images.githubusercontent.com/21316901/41117679-13d11854-6a64-11e8-8756-26c2a651cb98.png)
-
+[voltar](./)
 ### Autores
 
 * **Ítalo Fernandes** - github.com/italogfernandes
