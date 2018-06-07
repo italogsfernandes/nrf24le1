@@ -64,7 +64,7 @@ então coloque os arquivos de Arduino/libraries na pasta ´Arduino/libraries´ d
 2. Baixe o instalador: *GTK# for .NET* - Installer for running Gtk#-based applications on Microsoft .NET
 ![image](https://user-images.githubusercontent.com/21316901/41117649-00484ad2-6a64-11e8-8a58-12556d78eb9c.png)
 
-3. Prossiga com a instalação até o final.
+3. Prossiga com a instalação até o final. 
 ![image](https://user-images.githubusercontent.com/21316901/41117665-09d831fc-6a64-11e8-9d91-9d43a51d7d10.png)
 
 4. Após instalar, extraia o arquivo *WindowsRelease.rar* execute o arquivo *nrf-Burner*.
