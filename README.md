@@ -34,14 +34,6 @@ O NRF24LE1 é um transceptor de rádio frequência produzido pela [Nordic Semico
 então coloque os arquivos de Arduino/libraries na pasta ´Arduino/libraries´ do seu sistema.
 ![Arduino Download](img/arduino_libraries.PNG)
 
-### NRF24L01 + STM32
-
-1. Instale a IDE do arduino como descrito no passo 1 da sessão **NRF24L01 + Arduino DUE**.
-
-2. Configure a IDE para programar o STM32.
-
-3. Escreverei está parte mais tarde
-
 ### NRF24LE1 com Keil C51
 
 1. Baixe e instale o **Keil C51**. Coloquei um tutorial a parte para este processo, tenha em mãos os meios de comprar uma licença do compilador caso você deseje fazer programas acima de 2 mil linhas. [Tutorial de Instalação do Keil C51](https://www.google.com/)
