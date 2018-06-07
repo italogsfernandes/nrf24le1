@@ -29,8 +29,6 @@ São necessários os seguintes softwares:
     1. [Gravador Open-Source](./instalacao-gravador-open-source.html).
 * Arduino IDE para Arduino Due e Bibliotecas: [Ferramentas arduino](./instalacao-arduino-bibliotecas.html).
 
-
-[voltar](./)
 ### Autores
 
 * **Ítalo Fernandes** - github.com/italogsfernandes
