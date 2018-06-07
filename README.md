@@ -33,5 +33,5 @@ São necessários os seguintes softwares:
 [voltar](./)
 ### Autores
 
-* **Ítalo Fernandes** - github.com/italogfernandes
+* **Ítalo Fernandes** - github.com/italogsfernandes
 * **Talles Silva** - github.com/TallesSilva
