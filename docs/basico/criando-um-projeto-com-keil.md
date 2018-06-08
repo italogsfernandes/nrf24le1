@@ -105,9 +105,8 @@ Você completou o passo 1 do tutorial, agora o projeto está pronto para que voc
 ### Passo 2: Seu primeiro programa
 
 O projeto agora está configurado e você pode começar a escrever as primeiras linhas do seu código para compilar e gravar este programa no nRF24LE1.
-
 1. Antes de começar a escrever seu código você deve criar um arquivo vazio, vamos chamar de **main.c** e criar na pasta do projeto.
-2. Na área *Project tree view*, clique com o botão direito sobre a pasta o grupo em que colocará seu arquivo e no menu selecione **Add files to group "application"**... como mostrado na figura 18. A janela "Add files to group 'application'" aparecerá.
+2. Na área *Project tree view*, clique com o botão direito sobre a pasta o grupo em que colocará seu arquivo e no menu selecione **Add files to group "application"**... como mostrado na figura 18. A janela "Add files to group 'application'" aparecerá. Caso os grupos não estejam com os mesmos nomes é possível renomeá-los na opção **Manage Components**, o seu código também funcionará com nomes diferentes.
 3. Figura 18 e 19.
 ![](../img/basico/figure_18.jpg)
 ![](../img/basico/figure_19.jpg)
@@ -116,7 +115,8 @@ O projeto agora está configurado e você pode começar a escrever as primeiras 
 ![](../img/basico/figure_20.jpg)
 6. Adicione o arquivo vazio main.c para o projeto, escreva algumas linhas de código e compile-o.
 7. Você pode copiar o código de exemplo abaixo.
-```c++
+
+```cpp
 /* My first application */
 
 #include<Nordic\reg24le1.h>
@@ -138,8 +138,59 @@ void main(){
 
 Neste ponto, você concluiu o passo 2 e criou com sucesso o seu arquivo HEX. Este arquivo contém as informações em linguagem de máquina que dizem todas as instruções que você programou.
 
+### Passo 3: Incluindo Arquivos
+Escrevendo códigos do zero pode ser cansativo e consumir muito tempo, já que será necessário estudar datalhes de todos os registradores no datasheet para configurar o dispositivo. Para agilizar o desenvolvimento existem modulos de software prontos para o uso que podem ser incluídos and re-usados para diversos projetos. Cada moulo contêm a funcionalidade para um específico modulo de hardware.
+
+Você verá um exemplo de como adicionar o modulo do ADC (*Analog-to-digital-converter*) no nRF24LE1, para isso a biblioteca do ADC será incluída. Ao final disso, experimente adicionar a biblioteca de **delays**, ela será útil para o código **blink**.
+
+1. Selecione a pasta HAL na área *Project tree view* e ative o menu de contexto clicando com o botão dinheiro. Selecione **Add Files to Group 'HAL'**. Veja a figura 25.
+![](../img/basico/figure_25.jpg)
+2. O HAL pode facilmente ser incluido clicando com o botão direito na pasta 'HAL' no área *Project tree view* e então selecionando "**Add the hal_adc.c**" para o projeto, como mostrado na figura 25 e 26.
+![](../img/basico/figure_26.jpg)
+3. O HAL para o ADC agora está incluído no projeto, para fazer uso dela adicione no topo do arquivo main.c `#include<hal_adc.h>`. Veja a área circulada na figura 27.
+![](../img/basico/figure_27.jpg)
+4. Após incluir o arquivo no projeto você pode recompilar a aplicação (**Rebuild**). Veja a figura 27. Você pode usar um projeto com uma rotina main vazia. O espaço de código compilado agora pe de 191 bytes, a razão para isso é que você incluiu todas as funcionalidades do ADC para seu projeto, mesmo não fazendo uso das funções. Se você estiver usando o *extended linker*, então funções não usadas não são compiladas e não há aumento no espaço de código.
+![](../img/basico/figure_28.jpg)
+5. Opcionalmente você pode navegar pelas funções em hal_adc.c selecionando "Function tab". Veja a área circulada na figura 28. Clique em uma das funções para ver os argumentos e seu código fonte. Todos os parametros para as funções são *enumerators* que podem ser usados ao chamar a função.
+6. Você pode também listar todos os enumeradores usando a opção de menu **Go To Definition of** (veja a figura 29).
+![](../img/basico/figure_29.jpg)
+7. Usando as funções listadas em hal_adc.c você pode facilmente construir uma aplicação que inicializa e lê uma entrada analógica, evitando a necessidade de estudar o datasheet em detalhes. HAL similares a do ADC estão diponíveis para todos os modulos internos do nRF24LE1.
+8. Por agora você pode copiar o conteúdo abaixo (Code example 2) na sua aplicação main.c.
+
+```cpp
+/* My first application */
+
+#include<Nordic\reg24le1.h>
+
+// Main routine
+void main(){
+    // Set P0 as Output
+    P0DIR = 0x00;
+    while(1){
+        // Toggle a GPIO
+        P00 = !P00;
+    }
+}
+```
+![](../img/basico/figure_31.jpg)
+9. Após escrever o código em main.c, como mostrado na figura 31, use a opção **Rebuild** para recompilar o *target* e verificar se ocorreu tudo certo.
+10. Neste ponto você incluiu com sucesso um módulo HAL. O HAL proporciona um fácil jeito de iniciar o uso de uma funcionalidade específica como o ADC.
+
+## Conclusões
+O nRFgo-SDK com o compilador Keil C51 proporciona um ambiente de uso facilitado para programar dispositivos nRF. Este SDK contêm o HAL, módulo de bibliotecas que podem ser usadas como estão ou serem consultadas em conjunto com o datasheet como referência para se escrever suas proprias rotinas (por exemplo escrever uma biblioteca para sensor inercial no nrf).
+São vantagens de utilizar o nRFgo SDK:
+* Modulos prontons que podem ser reutilizados em vários projetos.
+* Códigos que alguém fez e testou para várias funcionalidades.
+* Funções simples que facilitam o uso.
+* Menor tempo de desenvolvimento.
+* Flexibilidade de configurar o ambiente de desenvolvimento.
+
 ## Referências
 
 1. Creating Applications with the Keil C51 C Compiler - [Acessar](http://www.nordicsemi.com/eng/nordic/download_resource/10885/7/38349113/1515). (Eu basicamente traduzi esse documento e selecionei as partes que são importantes e quais não são úteis para o nosso caso.)
+2. Documentação do nRFgo SDK
+3. Projetos de exemplo do nRFgo SDK
+4. Documentação do nRFgo Starter Kit.
+5. Documentação do nRFprobe.
 
 [home](./)
