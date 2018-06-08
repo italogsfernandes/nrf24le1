@@ -116,7 +116,7 @@ O projeto agora está configurado e você pode começar a escrever as primeiras 
 ![](../img/basico/figure_20.jpg)
 6. Adicione o arquivo vazio main.c para o projeto, escreva algumas linhas de código e compile-o.
 7. Você pode copiar o código de exemplo abaixo.
-```c
+'''c
 /* My first application */
 
 #include<Nordic\reg24le1.h>
@@ -130,7 +130,7 @@ void main(){
         P00 = !P00;
     }
 }
-```
+'''
 8. Este código de exemplo vai inverter o *Port 0 pin 0* continuamente.
 9. Após escrever o código de exemplo no arquivo main.c você pode compilar o programa selecionando **Rebuild**. Veja a figura 22.
 ![](../img/basico/figure_22.jpg)
