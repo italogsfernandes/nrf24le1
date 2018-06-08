@@ -1,0 +1,5 @@
+".\Objects\blink.obj",
+".\Objects\hal_delay.obj" 
+TO ".\Objects\blink_op_1" 
+PRINT(".\Listings\blink_op_1.m51") RAMSIZE(256) 
+DISABLEWARNING (15, 16) 

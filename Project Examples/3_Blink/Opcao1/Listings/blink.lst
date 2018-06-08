@@ -1,0 +1,59 @@
+C51 COMPILER V9.56.0.0   BLINK                                                             06/08/2018 16:12:20 PAGE 1   
+
+
+C51 COMPILER V9.56.0.0, COMPILATION OF MODULE BLINK
+OBJECT MODULE PLACED IN .\Objects\blink.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE blink.c OPTIMIZE(8,SPEED) BROWSE INCDIR(C:\Nordic Semiconductor\nRFgo SD
+                    -K 2.3.0.10040\source_code\hal\nrf24le1;C:\Nordic Semiconductor\nRFgo SDK 2.3.0.10040\source_code\hal;C:\Nordic Semicondu
+                    -ctor\nRFgo SDK 2.3.0.10040\source_code\compiler\common) DEBUG OBJECTEXTEND PRINT(.\Listings\blink.lst) TABS(2) OBJECT(.\
+                    -Objects\blink.obj)
+
+line level    source
+
+   1          #include<Nordic\reg24le1.h> // Registradores do nrf24le1
+   2          #include<hal_delay.h> // HAL para as funções de delay
+   3          
+   4          /**
+   5           * Função de inicialização das funções que serão utilizadas
+   6           */
+   7          void setup(){
+   8   1          // Inicializa os pinos do Port 0 e Port 1 todos como entradas.
+   9   1          P0DIR = 0xFF; P1DIR = 0xFF;
+  10   1          // Configura o pino 3 do Port 0 como saída
+  11   1          P0DIR &= ~(1 << 3);
+  12   1      }
+  13          
+  14          /**
+  15           * Está função é chamada repetidivamente.
+  16           */
+  17          void loop(){
+  18   1          // Inverte o Pino 0 do Port 0
+  19   1          P03 = !P03;
+  20   1          // Aguarda 1s
+  21   1          delay_ms(1000);
+  22   1      }
+  23          
+  24          /**
+  25           * Função Main, indicando como funcionará o sitema.
+  26           * Ele está simplificado para funcionar semelhante ao arduino.
+  27           */
+  28          void main(){
+  29   1          setup();
+  30   1          while(1){
+  31   2              loop();
+  32   2          }
+  33   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     27    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
