@@ -76,6 +76,7 @@ conversão de hexadecimal para binário, cada digito hex equivale a um conjunto 
 4 bits.
 
 #### Tabela para conversão rápida
+
 Hex | Binary
 --- | ------
 0 | 0000
@@ -103,14 +104,19 @@ F | 1111
 Para manipulação de bits são utilizados os operados bitwise.
 São eles:
 * `&`: And
+
 `0b10011110 & 0b11110111 = 0b10010110`
 * `|`: Or
+
 `0b10011110 | 0b00100000 = 0b10111110`
-* '~': Not
+* `~`: Not
+
 `~0b00001000 = 0b11110111`
-* '<': Left Shift
+* `<<`: Shift Left
+
 `1<3 = 0b100 = 0b00001000`
-* '>': Right Shift
+* `>>`: Shift Right
+
 `0b100>3 = 0b1 = 0b00000001`
 
 **Mascáras**
