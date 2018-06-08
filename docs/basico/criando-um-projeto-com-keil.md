@@ -193,4 +193,4 @@ São vantagens de utilizar o nRFgo SDK:
 4. Documentação do nRFgo Starter Kit.
 5. Documentação do nRFprobe.
 
-[home](./)
+[home](../)
