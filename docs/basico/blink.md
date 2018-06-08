@@ -25,7 +25,7 @@ void setup(){
  */
 void loop(){
     // Inverte o Pino 0 do Port 0
-    P00 = !P00;
+    P03 = !P03;
     // Aguarda 1s
     delay_ms(1000);
 }
