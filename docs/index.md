@@ -34,8 +34,8 @@ São necessários os seguintes softwares:
 Uma sugestão de roteiro para começar:
 * **Slides** sobre rádio frequência com este dispositivo.
 * **Básico**:
-    * Criando um [**primeiro projeto**](./basico/criando-um-projeto-com-keil.html) para no nrf24le1 com o Keil.
-    * [**Blink**](./basico/blink.html) para o nRF.
+    * Criando um [primeiro projeto](./basico/criando-um-projeto-com-keil.html) para no nrf24le1 com o Keil.
+    * [Blink](./basico/blink.html) para o nRF.
     * Gravando um código com o mPro burner.
     * **Gravando** um código com o Gravador Open-Source.
     * Input/Output (Piscar Leds e Ler botões).
