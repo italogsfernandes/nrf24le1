@@ -130,7 +130,7 @@ O caminho depende da versão do SDK, no meu caso :
 
 20. Clique no botão **OK** para confirmar as configurações do Keil.
 
-Você completou o passo 1 do tutorial, agora o projeto está pronto para que você escreva seu primeiro código. Este passo é explicado no [próximo artigo](./basico/programando-um-projeto-com-keil.html).
+Você completou o passo 1 do tutorial, agora o projeto está pronto para que você escreva seu primeiro código.
 
 ## Referências
 
