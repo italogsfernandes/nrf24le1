@@ -106,8 +106,37 @@ Você completou o passo 1 do tutorial, agora o projeto está pronto para que voc
 
 O projeto agora está configurado e você pode começar a escrever as primeiras linhas do seu código para compilar e gravar este programa no nRF24LE1.
 
-1. Antes
+1. Antes de começar a escrever seu código você deve criar um arquivo vazio, vamos chamar de **main.c** e criar na pasta do projeto.
+2. Na área *Project tree view*, clique com o botão direito sobre a pasta o grupo em que colocará seu arquivo e no menu selecione **Add files to group "application"**... como mostrado na figura 18. A janela "Add files to group 'application'" aparecerá.
+3. Figura 18 e 19.
+![](../img/basico/figure_18.jpg)
+![](../img/basico/figure_19.jpg)
+4. Crie um arquivo de texto clicando comm o botão direito na pasta *view* e escolhendo **New text document**, renomei-o para **main.c**. Veja a figura 19. Esse arquivo vai funcionar como um ponto de entrada para sua aplicação.
+5. Clique duas vezes no arquivo main.c na área *Project tree view* para editá-lo.
+![](../img/basico/figure_20.jpg)
+6. Adicione o arquivo vazio main.c para o projeto, escreva algumas linhas de código e compile-o.
+7. Você pode copiar o código de exemplo abaixo.
+```c
+/* My first application */
 
+#include<Nordic\reg24le1.h>
+
+// Main routine
+void main(){
+    // Set P0 as Output
+    P0DIR = 0x00;
+    while(1){
+        // Toggle a GPIO
+        P00 = !P00;
+    }
+}
+```
+8. Este código de exemplo vai inverter o *Port 0 pin 0* continuamente.
+9. Após escrever o código de exemplo no arquivo main.c você pode compilar o programa selecionando **Rebuild**. Veja a figura 22.
+![](../img/basico/figure_22.jpg)
+10. Após compilar o código você poderá gravá-lo no módulo nRF24LE1. Se você estiver utilizando o kit vendido pela nordik veja nas referências deste documento como fazer isso, caso esteja utilizando um módulo sozinho o processo de gravação de um código será abordado em outro artigo.
+
+Neste ponto, você concluiu o passo 2 e criou com sucesso o seu arquivo HEX. Este arquivo contém as informações em linguagem de máquina que dizem todas as instruções que você programou.
 
 ## Referências
 
