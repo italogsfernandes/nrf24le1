@@ -72,6 +72,13 @@ então coloque os arquivos de Arduino/libraries na pasta ´Arduino/libraries´ d
 ![image](https://user-images.githubusercontent.com/21316901/41117679-13d11854-6a64-11e8-8756-26c2a651cb98.png)
 
 ## Programando o NRF24L01 com o Arduino Due
+1. Após instalar o keil, o GTK e o compilador_open_source podemos começar a escrever nosso código.
+2. Por tanto, abriremos o nosso Keil com sua devida configuração (options target >> configurar output e C51) e criaremos então nosso primeiro projeto e salvaremos ele.
+![image]()
+3. Com o projeto criado, o próximo passo é compilar e salvar o projeto em uma pasta. Nesta pasta estará uma outra pasta chamada objets e lá se encontra nosso arquivo .HEX de extrema importância.
+![image]()
+4. o arquivo .HEX deve ser executado com o compilador_open_source e
+![image]()
 
 ## Programando o NRF24LE1 com o Keil
 
