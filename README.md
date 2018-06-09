@@ -78,7 +78,7 @@ então coloque os arquivos de Arduino/libraries na pasta ´Arduino/libraries´ d
 3. Com o projeto criado, o próximo passo é compilar e salvar o projeto em uma pasta. Nesta pasta estará uma outra pasta chamada objets e lá se encontra nosso arquivo .HEX de extrema importância.
 ![image]()
 4. o arquivo .HEX deve ser executado com o compilador_open_source e
-![image]()
+
 
 ## Programando o NRF24LE1 com o Keil
 
