@@ -1,6 +1,6 @@
 #include<Nordic\reg24le1.h> // Registradores do nrf24le1
-#include<hal_delay.h> // HAL para as funções de delay
-#include "nRF-SPICommands.h" // Comunicacao RF, desenvolvida pelo prof. Sergio Ricardo de Jesus Oliveira
+#include<hal_delay.h> // H.AL para as funções de delay
+#include<nRF-SPICommands.h> // Comunicacao RF, desenvolvida pelo prof. Sergio Ricardo de Jesus Oliveira
 
 // Endereço de recepção, pode ser qualquer conjunto de 5 números
 // Coloquei 0x42 por que 42 é um belo número
@@ -16,8 +16,8 @@ void setup(){
     // Configura o pino 3 do Port 0 como saída
     P0DIR &= ~(1 << 3);
     // Configura os pinos 4 e 5 como entradas
-    P0DIR != 1 << 4;
-    P0DIR != 1 << 5;
+    P0DIR |= 1 << 4;
+    P0DIR |= 1 << 5;
 
     // Inicializa a comunicacao por radio frequencia
     rf_init(endereco_arduino, endereco_nrf24le1, 92, RF_DATA_RATE_2Mbps, RF_TX_POWER_0dBm);
@@ -30,7 +30,7 @@ void loop(){
     }
 
     if(!P05){
-        tx_buf[0] = 'G';
+        tx_buf[0] = 'B';
         TX_Mode_NOACK(1);
     }
 
@@ -49,6 +49,13 @@ void loop(){
             break;
         }
     }
+		
+		tx_buf[0] = 'B';
+		TX_Mode_NOACK(1);
+		delay_ms(1000);
+		tx_buf[0] = 'G';
+		TX_Mode_NOACK(1);
+		delay_ms(1000);
 }
 
 /**

@@ -1,0 +1,5 @@
+".\Objects\rx_and_tx_example.obj",
+".\Objects\hal_delay.obj" 
+TO ".\Objects\rx_and_tx_example" 
+PRINT(".\Listings\rx_and_tx_example.m51") RAMSIZE(256) 
+DISABLEWARNING (15, 16) 

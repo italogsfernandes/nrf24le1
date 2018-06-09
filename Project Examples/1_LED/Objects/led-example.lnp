@@ -1,0 +1,4 @@
+".\Objects\main.obj",
+".\Objects\hal_delay.obj" 
+TO ".\Objects\led-example" 
+PRINT(".\Listings\led-example.m51") RAMSIZE(256) 
