@@ -1,0 +1,9 @@
+c:\users\italo\documents\visual studio 2017\Projects\nrfGravadorAuxiliar\nrfGravadorAuxiliar\bin\Debug\nrfGravadorAuxiliar.exe.config
+c:\users\italo\documents\visual studio 2017\Projects\nrfGravadorAuxiliar\nrfGravadorAuxiliar\bin\Debug\nrfGravadorAuxiliar.exe
+c:\users\italo\documents\visual studio 2017\Projects\nrfGravadorAuxiliar\nrfGravadorAuxiliar\bin\Debug\nrfGravadorAuxiliar.pdb
+c:\users\italo\documents\visual studio 2017\Projects\nrfGravadorAuxiliar\nrfGravadorAuxiliar\obj\Debug\nrfGravadorAuxiliar.csprojResolveAssemblyReference.cache
+c:\users\italo\documents\visual studio 2017\Projects\nrfGravadorAuxiliar\nrfGravadorAuxiliar\obj\Debug\nrfGravadorAuxiliar.Form1.resources
+c:\users\italo\documents\visual studio 2017\Projects\nrfGravadorAuxiliar\nrfGravadorAuxiliar\obj\Debug\nrfGravadorAuxiliar.Properties.Resources.resources
+c:\users\italo\documents\visual studio 2017\Projects\nrfGravadorAuxiliar\nrfGravadorAuxiliar\obj\Debug\nrfGravadorAuxiliar.csproj.GenerateResource.Cache
+c:\users\italo\documents\visual studio 2017\Projects\nrfGravadorAuxiliar\nrfGravadorAuxiliar\obj\Debug\nrfGravadorAuxiliar.exe
+c:\users\italo\documents\visual studio 2017\Projects\nrfGravadorAuxiliar\nrfGravadorAuxiliar\obj\Debug\nrfGravadorAuxiliar.pdb
