@@ -1,0 +1,108 @@
+C51 COMPILER V9.56.0.0   TX_AND_RX_EXAMPLE                                                 06/09/2018 15:49:29 PAGE 1   
+
+
+C51 COMPILER V9.56.0.0, COMPILATION OF MODULE TX_AND_RX_EXAMPLE
+OBJECT MODULE PLACED IN .\Objects\tx_and_rx_example.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE tx_and_rx_example.c OPTIMIZE(8,SPEED) BROWSE INCDIR(C:\Nordic Semiconduc
+                    -tor\nRFgo SDK 2.3.0.10040\source_code\compiler\common;C:\Nordic Semiconductor\nRFgo SDK 2.3.0.10040\source_code\hal;..\.
+                    -.\nRF24LE1\libraries) DEBUG OBJECTEXTEND PRINT(.\Listings\tx_and_rx_example.lst) TABS(2) OBJECT(.\Objects\tx_and_rx_exam
+                    -ple.obj)
+
+line level    source
+
+   1          /* Minucurso de nRF24LE1 - 09/06/2018
+   2          
+   3          Configurar as saidas
+   4          Configurar as entradas
+   5          Configurar a rede
+   6          
+   7          Receber o comando do botão
+   8          Enviar um pacote
+   9          Receber um pacote
+  10          Acender os leds
+  11          */
+  12          //Biblioteca dos registradores
+  13          #include<Nordic\reg24le1.h>
+  14          //Biblioteca de delay
+  15          #include<hal_delay.h>
+  16          //Biblioteca para comunicação RF
+  17          #include<nRF-SPICommands.h>
+  18          #include<stdint.h> //inteiros de 8 bits e etc
+  19          //C:\Nordic Semiconductor\nRFgo SDK 2.3.0.10040\source_code\hal
+  20          
+  21          uint8_t code endereco_italo[5] = { 0x00, 0x00, 0x00, 0x00, 0x42}; 
+  22          uint8_t code endereco_cristian[5] = { 0x00, 0x00, 0x00, 0x00, 0x27};
+  23          
+  24          void setup(){
+  25   1        // Configurar os pinos
+  26   1        /*
+  27   1        LED Vermelho | P03
+  28   1        LED Verde | P06
+  29   1      
+  30   1        Botão 1 | Reset
+  31   1        Botão 2 | P14
+  32   1        Botão 3 | P02
+  33   1        */
+  34   1        P0DIR = 0xFF; // Tudo entrada
+  35   1        
+  36   1        P0DIR &= ~(1<<2); //P03 -> 0 -> OUTPUT
+  37   1        P0DIR &= ~(1<<3); //P06 -> 0 -> OUTPUT
+  38   1          
+  39   1        P0DIR |= 1<<4; //P14 -> 1 -> INPUT
+  40   1        P0DIR |= 1<<5; //P02 -> 2 -> INPUT
+  41   1        
+  42   1        rf_init(endereco_italo, endereco_italo,
+  43   1                92, RF_DATA_RATE_2Mbps, RF_TX_POWER_0dBm);
+  44   1      }
+  45          
+  46          void loop(){
+  47   1        if(P04 == 0){ //Botão 1 pressionado
+  48   2          //P03 = !P03; // Inverte LED
+  49   2          tx_buf[0] = 'G'; // Green
+  50   2          TX_Mode_NOACK(1); //G -> End | 'G' | CRC
+  51   2          delay_ms(250);
+  52   2        }
+C51 COMPILER V9.56.0.0   TX_AND_RX_EXAMPLE                                                 06/09/2018 15:49:29 PAGE 2   
+
+  53   1        if(P05 == 0){ //Botão 2 pressionado
+  54   2          //P06 = !P06;
+  55   2          tx_buf[0] = 'R'; //Red
+  56   2          TX_Mode_NOACK(1); //R -> End | 'R' | CRC
+  57   2          delay_ms(250);
+  58   2        }
+  59   1        if(newPayload){
+  60   2          newPayload = 0;
+  61   2          switch(rx_buf[0]){
+  62   3            case 'G':
+  63   3              P02 = !P02;
+  64   3              break;
+  65   3            case 'R':
+  66   3              P03 = !P03;
+  67   3              break;
+  68   3            default:
+  69   3              P02 = !P02; P03 = !P03; delay_ms(500);
+  70   3              P02 = !P02; P03 = !P03; delay_ms(500);
+  71   3              break;
+  72   3          }
+  73   2        }
+  74   1      }
+  75          void main(){
+  76   1        setup();
+  77   1        while(1){
+  78   2          loop();
+  79   2        }
+  80   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    691    ----
+   CONSTANT SIZE    =     15    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     66      24
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      1    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,5 @@
+".\Objects\tx_and_rx_example.obj",
+".\Objects\hal_delay.obj" 
+TO ".\Objects\transmit_and_receive_example" 
+PRINT(".\Listings\transmit_and_receive_example.m51") RAMSIZE(256) 
+DISABLEWARNING (16) 
