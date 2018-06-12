@@ -177,7 +177,7 @@
           </Flash1>
           <bUseTDR>0</bUseTDR>
           <Flash2></Flash2>
-          <Flash3></Flash3>
+          <Flash3>"" ()</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
@@ -231,7 +231,7 @@
               <RCB>
                 <Type>0</Type>
                 <StartAddress>0x0</StartAddress>
-                <Size>0x10000</Size>
+                <Size>0xffff</Size>
               </RCB>
               <RXB>
                 <Type>0</Type>
@@ -383,6 +383,13 @@
         </Group>
         <Group>
           <GroupName>HALL</GroupName>
+          <Files>
+            <File>
+              <FileName>hal_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>D:\Programas\Nordic Semiconductor\nRFgo SDK 2.3.0.10040\source_code\hal\hal_delay.c</FilePath>
+            </File>
+          </Files>
         </Group>
       </Groups>
     </Target>
