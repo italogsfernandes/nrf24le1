@@ -2,7 +2,7 @@ title: NRF24LE1
 description: Ferramentas para programação do módulo NRF24LE1.
 show_downloads: true
 #theme: jekyll-theme-leap-day
-remote_theme: KingFelix/emerald
+remote_theme: TaylanTatli/Moon
 github:
   zip_url: https://github.com/italogfernandes/nrf24le1/releases/
   another_url: https://github.com/italogfernandes/nrf24le1/releases
